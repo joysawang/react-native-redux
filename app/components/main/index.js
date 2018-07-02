@@ -56,10 +56,11 @@ const styles = StyleSheet.create({
   }
 });
 
+// Map state to props for use state realtime
 const mapStateToProps = (state) => {
   return state;
 }
-
+// Map dispatch to props for call actions
 const mapDispatchToProps = (dispatch) => {
   return {
     actions: {

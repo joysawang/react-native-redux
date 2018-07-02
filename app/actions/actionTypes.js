@@ -1,3 +1,4 @@
+// Set variables types for use in action, reducers or dispatch
 export default {
   COUNTER_RESET: '@@counter/RESET',
   COUNTER_REQUEST: '@@counter/REQUEST',

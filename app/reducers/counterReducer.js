@@ -1,5 +1,5 @@
 import types from './../actions/actionTypes';
-
+// Set initialState for default state in app
 const initialState = {
   isFetching: false,
   count: 0,
@@ -9,8 +9,9 @@ const initialState = {
 }
 
 const counterReducer = (state = initialState, action) => {
+  // Get payload from dispatch params
   const { payload } = action;
-
+  // Check dispatch type case and return update state
   switch (action.type) {
     case types.COUNTER_RESET:
       return {

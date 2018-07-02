@@ -3,8 +3,11 @@ import types from './actionTypes';
 export function increase() {
   return (dispatch, getState) => {
     try {
+      // dispatch is function send type and payload to reducers
+      // All reducers can be get dispatch anytime
+      // Reducers can use condition to get dispatch type for update state
       dispatch({ type: types.COUNTER_REQUEST });
-
+      
       const { counter } = getState();
       dispatch({
         type: types.COUNTER_INCREASE,

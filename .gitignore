@@ -1,0 +1,22 @@
+# Test
+__tests__/
+
+# Node
+node_modules/
+npm-debug.*
+
+# Babel
+.babelrc
+.flowconfig
+
+# Watchman
+.watchmanconfig
+
+# Yarn
+yarn.lock
+
+# Expo
+.expo/
+
+# OS X
+.DS_Store
